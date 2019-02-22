@@ -1,4 +1,4 @@
-## Freelance Co-Working Contract - Travel
+## Freelance Co-Working Contract - "Travel Wizard"
 ---
 
 #### Ian Cook Westgate
@@ -20,17 +20,17 @@ This is an exercise for Epicodus in which a website is created for a fictional n
 
 Given my decision to have this fictional website target a travel/remote worker business and demographic, I chose to look at a couple of websites for travel-oriented businesses to see what I could learn.
 
-* First example: https://www.techtravelgeeks.com/
+**First example:** https://www.techtravelgeeks.com/
 
-**Summary:** Tech Travel Geeks was an interesting first find. Their landing page focuses exclusively on the product which, in this case, is an intersection between tech news and travel blogging, all displayed in a visually appealing and minimalistic grid. The rest of the site is accessed through a similarly minimalistic sidebar on the left side.
+* Summary: Tech Travel Geeks was an interesting first find. Their landing page focuses exclusively on the product which, in this case, is an intersection between tech news and travel blogging, all displayed in a visually appealing and minimalistic grid. The rest of the site is accessed through a similarly minimalistic sidebar on the left side.
 
-**What I learned:** From this example, I would learn from their effective emphasis on travel, which you immediately gather is the point of this site and their business. However, there is zero information about their workspace and any info about inclusivity or their day-to-day functioning is almost entirely hidden. For the website I construct, that will need to be added in order to incorporate what I've learned from user stories.
+* What I learned: From this example, I would learn from their effective emphasis on travel, which you immediately gather is the point of this site and their business. However, there is zero information about their workspace and any info about inclusivity or their day-to-day functioning is almost entirely hidden. For the website I construct, that will need to be added in order to incorporate what I've learned from user stories.
 
-* Second example: https://remoteyear.com/
+**Second example:** https://remoteyear.com/
 
-**Summary:** Remote Year was a great discovery. Their landing page immediately hooks you in with a video in the background that shows what the user wants (travel throughout the world while permitting you to keep your job). Just below are more images that feature people happily traveling with links to information about how to preserve one's workspace as they do. This information with details as to how the product works continues on every subsequent page.
+* Summary: Remote Year was a great discovery. Their landing page immediately hooks you in with a video in the background that shows what the user wants (travel throughout the world while permitting you to keep your job). Just below are more images that feature people happily traveling with links to information about how to preserve one's workspace as they do. This information with details as to how the product works continues on every subsequent page.
 
-**What I learned:** Presentation was key here, and I was quickly blown away by the production value and seamless visual design behind the website. If that can be replicated to even the smallest degree in my own, then I'll count the website a success. That said, the workspace images featured throughout the site were confusing. At first, I thought they were workspaces of the business itself, but slowly realized that they are more likely to be simulated workspaces depicted for the benefit of the viewer (who, for this website, are seeking their own workspaces abroad). Much like Tech Travel Geeks above, there is a dearth of information and detail about how the company itself works or where it is even located.
+* What I learned: Presentation was key here, and I was quickly blown away by the production value and seamless visual design behind the website. If that can be replicated to even the smallest degree in my own, then I'll count the website a success. That said, the workspace images featured throughout the site were confusing. At first, I thought they were workspaces of the business itself, but slowly realized that they are more likely to be simulated workspaces depicted for the benefit of the viewer (who, for this website, are seeking their own workspaces abroad). Much like Tech Travel Geeks above, there is a dearth of information and detail about how the company itself works or where it is even located.
 
 ### Images
 
@@ -91,9 +91,11 @@ Contact us prototype:
 
 * HTML
 * CSS
-  * SASS
+  * Sass
 * JavaScript
   * jQuery
+* Sketch
+* Webpack
 
 ### Responsiveness
 
