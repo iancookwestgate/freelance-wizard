@@ -18,7 +18,7 @@ This is an exercise for Epicodus in which a website is created for a fictional n
 
 ### Research
 
-Given my decision to have this fictional website target a travel/remote worker business and demographic, I chose to look at a variety of websites for travel-oriented businesses to see what I could learn.
+Given my decision to have this fictional website target a travel/remote worker business and demographic, I chose to look at a couple of websites for travel-oriented businesses to see what I could learn.
 
 * First example: https://www.techtravelgeeks.com/
 
