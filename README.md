@@ -1,4 +1,4 @@
-## Freelance Co-Working Contract - "Travel Wizard"
+## Freelance Co-Working Contract - "The Travel Wizard"
 ---
 
 #### Ian Cook Westgate
