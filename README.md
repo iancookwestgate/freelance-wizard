@@ -36,35 +36,47 @@ Given my decision to have this fictional website target a travel/remote worker b
 
 **Landing Page**
 
-Mobile sketch:&nbsp; ![mobile sketch](img/landing-page-mobile.jpg)
+Mobile sketch:
+ ![mobile sketch](img/landing-page-mobile.jpg)
 
-Tablet sketch:&nbsp; ![tablet sketch](img/landing-page-tablet.jpg)
+Tablet sketch:
+ ![tablet sketch](img/landing-page-tablet.jpg)
 
-Desktop sketch:&nbsp; ![desktop sketch](img/landing-page-desktop.jpg)
+Desktop sketch:
+ ![desktop sketch](img/landing-page-desktop.jpg)
 
-Mobile prototype:&nbsp; ![mobile prototype](img/landing-page-mobile-prototype.png)
+Mobile prototype:
+ ![mobile prototype](img/landing-page-mobile-prototype.png)
 
-Tablet prototype:&nbsp; ![tablet prototype](img/landing-page-tablet-prototype.png)
+Tablet prototype:
+ ![tablet prototype](img/landing-page-tablet-prototype.png)
 
-Desktop prototype:&nbsp; ![desktop prototype](img/landing-page-desktop-prototype.png)
+Desktop prototype:
+ ![desktop prototype](img/landing-page-desktop-prototype.png)
 
 **Amenities Page**
 
-Amenities sketch:&nbsp; ![desktop sketch - amenities](img/amenities-page.jpg)
+Amenities sketch:
+ ![desktop sketch - amenities](img/amenities-page.jpg)
 
-Amenities prototype:&nbsp; ![desktop prototype - amenities](img/amenities-prototype.png)
+Amenities prototype:
+ ![desktop prototype - amenities](img/amenities-prototype.png)
 
 **How to Join Page**
 
-How to join sketch:&nbsp; ![desktop sketch - how to join](img/how-to-join-page.jpg)
+How to join sketch:
+ ![desktop sketch - how to join](img/how-to-join-page.jpg)
 
-How to join prototype:&nbsp; ![desktop prototype - how to join](img/how-to-join-prototype.png)
+How to join prototype:
+ ![desktop prototype - how to join](img/how-to-join-prototype.png)
 
 **Contact Us Page**
 
-Contact us sketch:&nbsp; ![desktop sketch - contact us](img/contact-page.jpg)
+Contact us sketch:
+ ![desktop sketch - contact us](img/contact-page.jpg)
 
-Contact us prototype:&nbsp; ![desktop prototype - contact us](img/contact-prototype.png)
+Contact us prototype:
+ ![desktop prototype - contact us](img/contact-prototype.png)
 
 #### Desktop Version
 
