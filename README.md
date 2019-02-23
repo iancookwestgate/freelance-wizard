@@ -6,15 +6,15 @@
 
 ### Description
 
-This is an exercise for Epicodus in which a website is created for a fictional new co-working startup (I decided on a tech company focused on enabling travel/remote work abroad) with a variety of user priorities. The website was created through a design process featuring user stories, research, sketches of the site on paper, wireframing, prototyping, and coding.
+This is an exercise for Epicodus in which a website is created for a fictional new co-working startup (I decided on a tech company focused on enabling travel/remote work abroad) with a variety of user priorities. This website, "The Travel Wizard" was created through a design process featuring user stories, research, sketches of the site on paper, wireframing, prototyping, and coding.
 
 ### User Stories
 
 * As a high-powered freelancer looking for a job with this company, I would love to see the appealing visuals of the workspace reflected in the website's presentation.
-* As a politician who might want to bring the company in for a government project, I want the website to show that the company can be high-powered as well as inclusive & safe for everyone.
-* As a potential investor, I want to see that the business has a unique personality that will lift it above just another boilerplate corporate atmosphere.
-* As a possible CTO, I believe that the business' heavy tech day-to-day can be balanced out with the involvement of artists, writers, creatives, and craftspeople from other industries.
-* As a future employee, I want an emphasis placed on the fun that can be had at work beyond the daily grind. Communal work areas, foozball tables, etc.
+* As a politician who might want to bring the company in for a government project, I want the website to show that the company can be high-powered, inclusive & safe for everyone at the same time.
+* As a potential investor, I want to see that the business has a unique personality that will lift it above having just another boilerplate corporate vibe.
+* As a possible CTO, I believe that the business' heavy tech day-to-day business can be balanced out with the involvement and featuring of artists, writers, creatives, & craftspeople from other industries.
+* As a future employee, I want an emphasis placed on the fun that can be had at work beyond the daily grind.
 
 ### Research
 
