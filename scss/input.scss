@@ -28,7 +28,7 @@ img {
   width: 40px;
 }
 
-.centerer {
+.index-below {
   max-width: 200px;
   display: block;
   margin: 0 auto;
@@ -43,7 +43,7 @@ img {
 
 // Specific to index.html //
 
-.index-top-container {
+.index-main-image {
   @include center-enabler;
 }
 
@@ -73,5 +73,28 @@ img {
   }
   img {
     max-width: 60%;
+  }
+}
+
+.index-hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0 15%;
+  }
+  .index-top-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 0px;
+  }
+  #index-main {
+    width: 800px;
+  }
+  .index-hidden {
+    display: block;
+    width: 350px;
+    height: 259px;
   }
 }

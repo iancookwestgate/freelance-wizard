@@ -22,20 +22,20 @@ img {
   width: 40px;
 }
 
-.centerer {
+.index-below {
   max-width: 200px;
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-.centerer .dec-line {
+.index-below .dec-line {
   margin: -50% 0;
 }
-.centerer p {
+.index-below p {
   font-size: 26px;
 }
 
-.index-top-container {
+.index-main-image {
   position: relative;
   text-align: center;
   color: white;
@@ -70,6 +70,32 @@ img {
 }
 .lp-picture-links img {
   max-width: 60%;
+}
+
+.index-hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0 15%;
+  }
+
+  .index-top-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 0px;
+  }
+
+  #index-main {
+    width: 800px;
+  }
+
+  .index-hidden {
+    display: block;
+    width: 350px;
+    height: 259px;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
