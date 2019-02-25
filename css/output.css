@@ -1,0 +1,75 @@
+body {
+  margin: 0 1%;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-style: italic;
+}
+
+.staff {
+  height: 40px;
+  width: 40px;
+}
+
+.centerer {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.centerer .dec-line {
+  margin: -50% 0;
+}
+.centerer p {
+  font-size: 26px;
+}
+
+.index-top-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.index-center {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+}
+
+#index-main {
+  max-width: 800px;
+}
+
+.lp-picture-links {
+  text-align: center;
+}
+.lp-picture-links .center-linking {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.lp-picture-links .center-linking p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+}
+.lp-picture-links img {
+  max-width: 60%;
+}
+
+/*# sourceMappingURL=output.css.map */
