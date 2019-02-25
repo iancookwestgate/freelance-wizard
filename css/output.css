@@ -1,6 +1,11 @@
 body {
   margin: 0 1%;
 }
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0 15%;
+  }
+}
 
 img {
   width: 100%;
@@ -52,6 +57,11 @@ img {
 #index-main {
   max-width: 800px;
 }
+@media screen and (min-width: 768px) {
+  #index-main {
+    width: 800px;
+  }
+}
 
 .lp-picture-links {
   text-align: center;
@@ -72,25 +82,18 @@ img {
   max-width: 60%;
 }
 
-.index-hidden {
-  display: none;
-}
-
-@media only screen and (min-width: 768px) {
-  body {
-    margin: 0 15%;
-  }
-
+@media screen and (min-width: 768px) {
   .index-top-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-column-gap: 0px;
   }
+}
 
-  #index-main {
-    width: 800px;
-  }
-
+.index-hidden {
+  display: none;
+}
+@media screen and (min-width: 768px) {
   .index-hidden {
     display: block;
     width: 350px;

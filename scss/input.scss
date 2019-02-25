@@ -4,8 +4,17 @@
   color: white;
 }
 
+@mixin mQ($arg){
+  @media screen and (min-width: $arg){
+    @content;
+  }
+}
+
 body {
   margin: 0 1%;
+  @include mQ(768px){
+    margin: 0 15%;
+  }
 }
 
 img {
@@ -57,6 +66,9 @@ img {
 
 #index-main {
   max-width: 800px;
+  @include mQ(768px){
+    width: 800px;
+  }
 }
 
 .lp-picture-links {
@@ -76,25 +88,19 @@ img {
   }
 }
 
-.index-hidden {
-  display: none;
+.index-top-container {
+  @include mQ(768px){
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 0px;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    margin: 0 15%;
-  }
-  .index-top-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-column-gap: 0px;
-  }
-  #index-main {
-    width: 800px;
-  }
-  .index-hidden {
-    display: block;
-    width: 350px;
-    height: 259px;
+.index-hidden {
+  display: none;
+  @include mQ(768px) {
+      display: block;
+      width: 350px;
+      height: 259px;
   }
 }
