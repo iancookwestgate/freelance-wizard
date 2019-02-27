@@ -47,54 +47,54 @@ Given my decision to have this fictional website target a travel/remote worker b
 **Landing Page**
 
 Mobile sketch:
- ![mobile sketch](img/landing-page-mobile.jpg)
+ ![mobile sketch](assets/img/landing-page-mobile.jpg)
 
 Tablet sketch:
- ![tablet sketch](img/landing-page-tablet.jpg)
+ ![tablet sketch](assets/img/landing-page-tablet.jpg)
 
 Desktop sketch:
- ![desktop sketch](img/landing-page-desktop.jpg)
+ ![desktop sketch](assets/img/landing-page-desktop.jpg)
 
 Mobile prototype:
- ![mobile prototype](img/landing-page-mobile-prototype.png)
+ ![mobile prototype](assets/img/landing-page-mobile-prototype.png)
 
 Tablet prototype:
- ![tablet prototype](img/landing-page-tablet-prototype.png)
+ ![tablet prototype](assets/img/landing-page-tablet-prototype.png)
 
 Desktop prototype:
- ![desktop prototype](img/landing-page-desktop-prototype.png)
+ ![desktop prototype](assets/img/landing-page-desktop-prototype.png)
 
 **Amenities Page**
 
 Amenities sketch:
- ![desktop sketch - amenities](img/amenities-page.jpg)
+ ![desktop sketch - amenities](assets/img/amenities-page.jpg)
 
 Amenities prototype:
- ![desktop prototype - amenities](img/amenities-prototype.png)
+ ![desktop prototype - amenities](assets/img/amenities-prototype.png)
 
 **How to Join Page**
 
 How to join sketch:
- ![desktop sketch - how to join](img/how-to-join-page.jpg)
+ ![desktop sketch - how to join](assets/img/how-to-join-page.jpg)
 
 How to join prototype:
- ![desktop prototype - how to join](img/how-to-join-prototype.png)
+ ![desktop prototype - how to join](assets/img/how-to-join-prototype.png)
 
 **Contact Us Page**
 
 Contact us sketch:
- ![desktop sketch - contact us](img/contact-page.jpg)
+ ![desktop sketch - contact us](assets/img/contact-page.jpg)
 
 Contact us prototype:
- ![desktop prototype - contact us](img/contact-prototype.png)
+ ![desktop prototype - contact us](assets/img/contact-prototype.png)
 
 #### Desktop Version
 
-![desktop user interface](img/)
+![desktop user interface](assets/img/)
 
 #### Mobile Version
 
-![mobile user interface](img/)
+![mobile user interface](assets/img/)
 
 
 ### Technologies and Resources
