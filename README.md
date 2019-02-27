@@ -8,6 +8,16 @@
 
 This is an exercise for Epicodus in which a website is created for a fictional new co-working startup (I decided on a tech company focused on enabling travel/remote work abroad) with a variety of user priorities. This website, "The Travel Wizard" was created through a design process featuring user stories, research, sketches of the site on paper, wireframing, prototyping, and coding.
 
+### Personas
+
+**Target Users:**
+
+* Jimmy, the high-powered freelancer - My goal is to get hired at a company with a great looking workspace. I will use this site to find such a company. My primary pain point is websites that are so focused on their product that I can't get a sense of what working there is like.
+* Senator Johnson, the politician - My goal is to find a company that can help develop a website for a government project. I will use this site to make sure that the company is cognizant of proper social decorum. My primary pain point is websites that fail to convey an open-arms presentation that is welcoming to all users.
+* Eduardo, the potential investor - My goal is to invest in a company with a unique personality that elevates it above the typical competitor. I will use this site to look for a unique work culture. My primary pain point is websites that look like just-another-corporation and fail to make themselves distinct from their competition.
+* Viola, the possible CTO - My goal is to work at a company that balances their tech work with the involvement of professionals across the creative spectrum. I will use this site to find evidence of a balanced workforce that can breathe outside of just another collection of tech workers. My primary pain point is websites that are excessively tech focused.
+* Gertrude, the future employee - My goal is to get a job at a company that knows how to have fun in addition to the everyday work. I will use this site to find signs of a friendly and exciting workspace where I can relax when I need to. My primary pain point is websites that display themselves as being so professional that you wonder if they get any breaks at all.
+
 ### User Stories
 
 * As a high-powered freelancer looking for a job with this company, I would love to see the appealing visuals of the workspace reflected in the website's presentation.
