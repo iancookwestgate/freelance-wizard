@@ -46,46 +46,46 @@ Given my decision to have this fictional website target a travel/remote worker b
 
 **Landing Page**
 
-Mobile sketch:
+Mobile sketch:<br>
  ![mobile sketch](src/assets/img/landing-page-mobile.jpg)
 
-Tablet sketch:
+Tablet sketch:<br>
  ![tablet sketch](src/assets/img/landing-page-tablet.jpg)
 
-Desktop sketch:
+Desktop sketch:<br>
  ![desktop sketch](src/assets/img/landing-page-desktop.jpg)
 
-Mobile prototype:
+Mobile prototype:<br>
  ![mobile prototype](src/assets/img/landing-page-mobile-prototype.png)
 
-Tablet prototype:
+Tablet prototype:<br>
  ![tablet prototype](src/assets/img/landing-page-tablet-prototype.png)
 
-Desktop prototype:
+Desktop prototype:<br>
  ![desktop prototype](src/assets/img/landing-page-desktop-prototype.png)
 
 **Amenities Page**
 
-Amenities sketch:
+Amenities sketch:<br>
  ![desktop sketch - amenities](src/assets/img/amenities-page.jpg)
 
-Amenities prototype:
+Amenities prototype:<br>
  ![desktop prototype - amenities](src/assets/img/amenities-prototype.png)
 
 **How to Join Page**
 
-How to join sketch:
+How to join sketch:<br>
  ![desktop sketch - how to join](src/assets/img/how-to-join-page.jpg)
 
-How to join prototype:
+How to join prototype:<br>
  ![desktop prototype - how to join](src/assets/img/how-to-join-prototype.png)
 
 **Contact Us Page**
 
-Contact us sketch:
+Contact us sketch:<br>
  ![desktop sketch - contact us](src/assets/img/contact-page.jpg)
 
-Contact us prototype:
+Contact us prototype:<br>
  ![desktop prototype - contact us](src/assets/img/contact-prototype.png)
 
 #### Desktop Version
