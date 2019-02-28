@@ -23,31 +23,13 @@ body {
   margin: 0 1%;
   font-family: athelas;
   @include mQ(1400px){
-    margin: 0 15%;
+    margin: 0 9%;
   }
 }
 
 a {
   text-decoration: none;
   color: #50E3C2;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  @include mQ(1400px){
-    justify-content: space-between;
-    width: 1050px;
-    margin: 0 auto;
-  }
-}
-
-.title {
-  font-size: 32px;
-  font-style: italic;
-  font-weight: bold;
-  font-family: fantasy;
 }
 
 .staff {
@@ -57,6 +39,23 @@ a {
 
 
 // Specific to index.html //
+
+.index-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: fantasy;
+  }
+  @include mQ(1400px){
+    justify-content: space-between;
+    width: 1050px;
+    margin: 0 auto;
+  }
+}
 
 .index-main-image {
   @include center-enabler;
@@ -176,5 +175,99 @@ a {
   @include mQ(1400px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  @include mQ(2300px) {
+    margin: 0 10%;
+  }
+}
+
+// Specific to amenities.html //
+
+.amen-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: fantasy;
+  }
+  @include mQ(1400px){
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+.amen-main-image {
+  text-align: center;
+  @include center-enabler;
+}
+
+.our-home {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  @include mQ(1400px){
+    font-size: 70px;
+  }
+}
+
+#amen-main {
+  max-width: 800px;
+  overflow: hidden;
+  @include mQ(1400px){
+    max-width: 80%;
+  }
+}
+
+.amen-below {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  #amen-line {
+    max-width: 200px;
+    margin: -15% 0;
+  }
+}
+
+#personality {
+  margin-top: -1%;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  @include mQ(1400px){
+    text-align: left;
+  }
+}
+
+.amen-image-spread {
+  text-align: center;
+  @include mQ(1400px){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  img {
+    max-width: 325px;
+    max-height: 206px;
+    @include mQ(1400px){
+      max-width: 450px;
+      max-height: 280px;
+    }
+  }
+  p {
+    text-align: left;
+    margin: 2% 2%;
+    @include mQ(1400px){
+      text-align: left;
+      margin: 0 auto;
+      max-width: 400px;
+    }
   }
 }
