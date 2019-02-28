@@ -1,7 +1,16 @@
 @mixin center-enabler {
   position: relative;
   text-align: center;
-  color: white;
+  color: #50E3C2;
+}
+
+@mixin internal-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 @mixin mQ($arg){
@@ -12,24 +21,33 @@
 
 body {
   margin: 0 1%;
-  @include mQ(768px){
+  font-family: athelas;
+  @include mQ(1400px){
     margin: 0 15%;
   }
 }
 
-img {
-  width: 100%;
+a {
+  text-decoration: none;
+  color: #50E3C2;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  @include mQ(1400px){
+    justify-content: space-between;
+    width: 1050px;
+    margin: 0 auto;
+  }
 }
 
 .title {
   font-size: 32px;
   font-style: italic;
+  font-weight: bold;
+  font-family: fantasy;
 }
 
 .staff {
@@ -37,18 +55,6 @@ img {
   width: 40px;
 }
 
-.index-below {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  .dec-line {
-    margin: -50% 0;
-  }
-  p {
-    font-size: 26px;
-  }
-}
 
 // Specific to index.html //
 
@@ -61,46 +67,114 @@ img {
   top: 25%;
   left: 35%;
   transform: translate(-50%, -50%);
-  font-size: 26px;
+  font-size: 40px;
+  font-style: italic;
 }
 
 #index-main {
   max-width: 800px;
-  @include mQ(768px){
+  @include mQ(1400px){
     width: 800px;
   }
 }
 
-.lp-picture-links {
-  text-align: center;
-  .center-linking {
-    @include center-enabler;
-    p {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 26px;
-    }
-  }
-  img {
-    max-width: 60%;
-  }
-}
-
 .index-top-container {
-  @include mQ(768px){
+  @include mQ(1400px){
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-column-gap: 0px;
+  width: 1050px;
+  margin: 0 auto;
+  }
+}
+
+.index-below {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  .dec-line {
+    max-width: 200px;
+    margin: -15% 0;
+  }
+  p {
+    margin-top: -5%;
+    font-size: 40px;
+    font-weight: bold;
   }
 }
 
 .index-hidden {
   display: none;
-  @include mQ(768px) {
+  @include mQ(1400px) {
       display: block;
       width: 350px;
       height: 259px;
+  }
+}
+
+.lp-first-row {
+  text-align: center;
+  @include center-enabler;
+  p {
+    @include internal-text;
+  }
+  img {
+    width: 450px;
+    height: 300px;
+  }
+  .nothing {
+    @include mQ(1400px) {
+      width: 450px;
+      height: 300px;
+    }
+  }
+  #surfer {
+    grid-column-start: 2;
+    margin: 0 auto;
+  }
+  @include mQ(1400px) {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+.lp-second-row {
+  text-align: center;
+  img {
+    width: 450px;
+    height: 300px;
+  }
+  #spiral {
+    display: none;
+    @include mQ(1400px) {
+      display: inline;
+    }
+  }
+  #desk {
+    @include center-enabler;
+    p {
+      @include internal-text;
+    }
+    @include mQ(1400px) {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  #laptop {
+    @include center-enabler;
+    p {
+      @include internal-text;
+    }
+    @include mQ(1400px) {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  @include mQ(1400px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
