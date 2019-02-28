@@ -32,6 +32,22 @@ a {
   color: #50E3C2;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
+// img {
+//   width: 100%;
+//   -webkit-transition: width 3s; /* Safari */
+//   transition: width 3s;
+// }
+//
+// img:hover {
+//   width: 100vw !important;
+//   height: auto !important;
+// }
+
+
 .travel-wiz {
   color: black;
 }
@@ -48,7 +64,6 @@ a {
   font-size: 38px;
 }
 
-
 // Specific to index.html //
 
 .index-navbar {
@@ -60,6 +75,10 @@ a {
     font-style: italic;
     font-weight: bold;
     font-family: fantasy;
+  }
+  a:hover {
+    color: green;
+    opacity: 0.7;
   }
   @include mQ(1400px){
     justify-content: space-between;
@@ -149,8 +168,6 @@ a {
   }
 }
 
-
-
 .lp-second-row {
   text-align: center;
   img {
@@ -204,6 +221,10 @@ a {
     font-weight: bold;
     font-family: fantasy;
   }
+  a:hover {
+    color: green;
+    opacity: 0.7;
+  }
   @include mQ(1400px){
     justify-content: space-between;
     width: 1000px;
@@ -255,6 +276,12 @@ a {
   text-align: center;
   @include mQ(1400px){
     text-align: left;
+  }
+}
+
+#personality {
+  @include mQ(1400px){
+    margin-left: 5%;
   }
 }
 
