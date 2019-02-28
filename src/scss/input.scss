@@ -41,6 +41,13 @@ a {
   width: 40px;
 }
 
+.title-bit {
+  font-style: normal;
+  font-weight: 400;
+  font-family: times;
+  font-size: 38px;
+}
+
 
 // Specific to index.html //
 
@@ -273,5 +280,43 @@ a {
       margin: 0 auto;
       max-width: 400px;
     }
+  }
+}
+
+// Specific to how-to-join.html //
+
+.htj-initial-grid {
+  text-align: center;
+  img {
+    max-width: 400px;
+  }
+  #hidden-plane {
+    display: none;
+  }
+}
+
+#htj-left-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  @include mQ(1400px){
+    font-size: 70px;
+  }
+}
+
+#htj-right-text {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  @include mQ(1400px){
+    font-size: 70px;
   }
 }
