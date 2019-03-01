@@ -20,6 +20,7 @@
 }
 
 body {
+  background-image: url("../assets/img/background-mountains.jpeg");
   margin: 0 1%;
   font-family: athelas;
   @include mQ(1400px){
@@ -39,6 +40,13 @@ a {
 .staff {
   height: 40px;
   width: 40px;
+  -webkit-transition: -webkit-transform 2s;
+  transition: transform 2s;
+}
+
+.staff:hover {
+  -webkit-transform: rotate(720deg);
+  transform: rotate(720deg);
 }
 
 .title-bit {
@@ -134,12 +142,9 @@ a {
   img {
     width: 450px;
     height: 300px;
-    -webkit-transition: -webkit-transform 2s;
-    transition: transform 2s;
   }
   img:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   @include mQ(1400px) {
     display: grid;
@@ -325,6 +330,7 @@ a {
     p {
       text-align: left;
       align-self: center;
+      padding: 0 2%;
     }
   }
   .htj-first-section {
