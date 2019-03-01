@@ -126,84 +126,84 @@ a {
   }
 }
 
-.lp-first-row {
-  text-align: center;
-  @include center-enabler;
-  p {
-    @include internal-text;
-  }
-  img {
-    width: 450px;
-    height: 300px;
-    -webkit-transition: width 1s;
-    transition: width 1s;
-  }
-  img:hover {
-    width: 600px;
-    height: auto;
-  }
-  .nothing {
-    @include mQ(1400px) {
-      width: 450px;
-      height: 300px;
-    }
-  }
-  #surfer {
-    grid-column-start: 2;
-    margin: 0 auto;
-  }
-  @include mQ(1400px) {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-.lp-second-row {
-  text-align: center;
-  img {
-    width: 450px;
-    height: 300px;
-    -webkit-transition: width 1s;
-    transition: width 1s;
-  }
-  img:hover {
-    width: 600px;
-    height: auto;
-  }
-  #spiral {
-    display: none;
-    @include mQ(1400px) {
-      display: inline;
-    }
-  }
-  #desk {
-    @include center-enabler;
-    p {
-      @include internal-text;
-    }
-    @include mQ(1400px) {
-      display: flex;
-      justify-content: flex-end;
-    }
-  }
-  #laptop {
-    @include center-enabler;
-    p {
-      @include internal-text;
-    }
-    @include mQ(1400px) {
-      display: flex;
-      justify-content: flex-start;
-    }
-  }
-  @include mQ(1400px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  @include mQ(2300px) {
-    margin: 0 10%;
-  }
-}
+// .lp-first-row {
+//   text-align: center;
+//   @include center-enabler;
+//   p {
+//     @include internal-text;
+//   }
+//   img {
+//     width: 450px;
+//     height: 300px;
+//     -webkit-transition: width 1s;
+//     transition: width 1s;
+//   }
+//   img:hover {
+//     width: 600px;
+//     height: auto;
+//   }
+//   .nothing {
+//     @include mQ(1400px) {
+//       width: 450px;
+//       height: 300px;
+//     }
+//   }
+//   #surfer {
+//     grid-column-start: 2;
+//     margin: 0 auto;
+//   }
+//   @include mQ(1400px) {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   }
+// }
+//
+// .lp-second-row {
+//   text-align: center;
+//   img {
+//     width: 450px;
+//     height: 300px;
+//     -webkit-transition: width 1s;
+//     transition: width 1s;
+//   }
+//   img:hover {
+//     width: 600px;
+//     height: auto;
+//   }
+//   #spiral {
+//     display: none;
+//     @include mQ(1400px) {
+//       display: inline;
+//     }
+//   }
+//   #desk {
+//     @include center-enabler;
+//     p {
+//       @include internal-text;
+//     }
+//     @include mQ(1400px) {
+//       display: flex;
+//       justify-content: flex-end;
+//     }
+//   }
+//   #laptop {
+//     @include center-enabler;
+//     p {
+//       @include internal-text;
+//     }
+//     @include mQ(1400px) {
+//       display: flex;
+//       justify-content: flex-start;
+//     }
+//   }
+//   @include mQ(1400px) {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//   }
+//   @include mQ(2300px) {
+//     margin: 0 10%;
+//   }
+// }
 
 // Specific to amenities.html and contact.html //
 
