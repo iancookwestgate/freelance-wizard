@@ -21,7 +21,8 @@ body {
   background: url("../assets/img/background-mountains.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200vh;
+  max-height: 255vh;
+  min-height: 100vh;
   margin: 0 1%;
   font-family: athelas;
   @include mQ(1400px){
@@ -69,6 +70,20 @@ span {
   font-weight: 400;
   font-family: times;
   font-size: 38px;
+}
+
+.black-pill {
+  p {
+    padding: 15px 5px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+  }
+  @include mQ(1400px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+  }
 }
 
 // Specific to index.html //
@@ -130,12 +145,7 @@ span {
   display: block;
   margin: 0 auto;
   text-align: center;
-  .dec-line {
-    max-width: 200px;
-    margin: -15% 0;
-  }
   p {
-    margin-top: -5%;
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
@@ -254,19 +264,7 @@ span {
   }
 }
 
-.amcu-below {
-  max-width: 400px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  .amcu-line {
-    max-width: 200px;
-    margin: -15% 0;
-  }
-}
-
 .amcu-header {
-  margin-top: -1%;
   font-size: 48px;
   font-weight: bold;
   text-align: center;
@@ -388,19 +386,6 @@ span {
   img {
     max-width: 400px;
     @include mQ(1400px){
-      max-width: 320px;
-    }
-  }
-  .black-pill {
-    p {
-      padding: 15px 5px;
-      background: rgba(0,0,0,0.6);
-      border-radius: 15px;
-    }
-    @include mQ(1400px){
-      display: flex;
-      justify-content: center;
-      align-items: center;
       max-width: 320px;
     }
   }
