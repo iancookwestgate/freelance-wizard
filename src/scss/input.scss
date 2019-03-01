@@ -127,89 +127,59 @@ a {
 }
 
 .bottom-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
+  text-align: center;
+  p {
+    z-index: 1;
+  }
+  img {
+    width: 450px;
+    height: 300px;
+    -webkit-transition: -webkit-transform 2s;
+    transition: transform 2s;
+  }
+  img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  @include mQ(1400px) {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    background-image: url(../assets/img/spiral-shape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #how-to-join-segment {
+    @include mQ(1400px) {
+      grid-column-start: 2;
+    }
+    @include center-enabler;
+    p {
+      @include internal-text;
+    }
+  }
+  #desk {
+    @include mQ(1400px) {
+      grid-row-start: 2;
+    }
+    @include center-enabler;
+    p {
+      @include internal-text;
+    }
+  }
+  #laptop {
+    @include mQ(1400px) {
+      grid-column-start: 3;
+      grid-row-start: 2;
+    }
+    @include center-enabler;
+    p {
+      @include internal-text;
+    }
+  }
 
-// .lp-first-row {
-//   text-align: center;
-//   @include center-enabler;
-//   p {
-//     @include internal-text;
-//   }
-//   img {
-//     width: 450px;
-//     height: 300px;
-//     -webkit-transition: width 1s;
-//     transition: width 1s;
-//   }
-//   img:hover {
-//     width: 600px;
-//     height: auto;
-//   }
-//   .nothing {
-//     @include mQ(1400px) {
-//       width: 450px;
-//       height: 300px;
-//     }
-//   }
-//   #surfer {
-//     grid-column-start: 2;
-//     margin: 0 auto;
-//   }
-//   @include mQ(1400px) {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr 1fr;
-//   }
-// }
-//
-// .lp-second-row {
-//   text-align: center;
-//   img {
-//     width: 450px;
-//     height: 300px;
-//     -webkit-transition: width 1s;
-//     transition: width 1s;
-//   }
-//   img:hover {
-//     width: 600px;
-//     height: auto;
-//   }
-//   #spiral {
-//     display: none;
-//     @include mQ(1400px) {
-//       display: inline;
-//     }
-//   }
-//   #desk {
-//     @include center-enabler;
-//     p {
-//       @include internal-text;
-//     }
-//     @include mQ(1400px) {
-//       display: flex;
-//       justify-content: flex-end;
-//     }
-//   }
-//   #laptop {
-//     @include center-enabler;
-//     p {
-//       @include internal-text;
-//     }
-//     @include mQ(1400px) {
-//       display: flex;
-//       justify-content: flex-start;
-//     }
-//   }
-//   @include mQ(1400px) {
-//     display: grid;
-//     grid-template-columns: 1fr 1fr 1fr;
-//   }
-//   @include mQ(2300px) {
-//     margin: 0 10%;
-//   }
-// }
+}
 
 // Specific to amenities.html and contact.html //
 
