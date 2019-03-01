@@ -20,7 +20,8 @@
 }
 
 body {
-  background-image: url("../assets/img/background-mountains.jpeg");
+  background-image: url("../assets/img/background-mountains.png");
+  background-size: cover;
   margin: 0 1%;
   font-family: athelas;
   @include mQ(1400px){
@@ -151,9 +152,10 @@ a {
     grid-template-columns: 450px 450px 450px;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
-    background-image: url(../assets/img/spiral-shape.jpg);
+    background-image: url(../assets/img/celtic-spiral.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: 60%;
   }
   #how-to-join-segment {
     @include mQ(1400px) {
