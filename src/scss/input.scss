@@ -32,22 +32,6 @@ a {
   color: #50E3C2;
 }
 
-a:hover {
-  opacity: 0.8;
-}
-
-// img {
-//   width: 100%;
-//   -webkit-transition: width 3s; /* Safari */
-//   transition: width 3s;
-// }
-//
-// img:hover {
-//   width: 100vw !important;
-//   height: auto !important;
-// }
-
-
 .travel-wiz {
   color: black;
 }
@@ -151,6 +135,12 @@ a:hover {
   img {
     width: 450px;
     height: 300px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+  }
+  img:hover {
+    width: 600px;
+    height: auto;
   }
   .nothing {
     @include mQ(1400px) {
@@ -173,6 +163,12 @@ a:hover {
   img {
     width: 450px;
     height: 300px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+  }
+  img:hover {
+    width: 600px;
+    height: auto;
   }
   #spiral {
     display: none;
