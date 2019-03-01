@@ -392,13 +392,16 @@ span {
     }
   }
   .black-pill {
-    background-color: black;
-    opacity: 0.6;
-    max-width: 300px;
-    padding: 10px 5px;
-    border-radius: 15px;
     p {
-      opacity: 1;
+      padding: 15px 5px;
+      background: rgba(0,0,0,0.6);
+      border-radius: 15px;
+    }
+    @include mQ(1400px){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 320px;
     }
   }
 }
