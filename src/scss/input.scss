@@ -40,12 +40,12 @@ a {
 }
 
 h1 {
-  color: #ff7842;
+  color: #50E3C2;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 span {
-  color: #ff7842;
+  color: #50E3C2;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -54,7 +54,7 @@ img {
 }
 
 .travel-wiz {
-  color: #ff7842;
+  color: #50E3C2;
 }
 
 .staff {
@@ -73,7 +73,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-family: times;
-  font-size: 38px;
+  font-size: 50px;
 }
 
 .black-pill {
@@ -90,6 +90,13 @@ img {
   }
 }
 
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
 // Specific to index.html //
 
 .index-navbar {
@@ -97,11 +104,11 @@ img {
   justify-content: space-around;
   align-items: center;
   p {
-    font-size: 32px;
+    font-size: 50px;
     font-style: italic;
     font-weight: bold;
     font-family: fantasy;
-    color: #ff7842;
+    color: #50E3C2;
   }
   a:hover {
     color: green;
@@ -164,9 +171,8 @@ img {
   text-align: center;
   p {
     font-size: 40px;
-    font-weight: bold;
     font-style: italic;
-    color: #ff7842;
+    color: #50E3C2;
   }
 }
 
@@ -243,7 +249,7 @@ img {
   justify-content: space-around;
   align-items: center;
   p {
-    font-size: 32px;
+    font-size: 50px;
     font-style: italic;
     font-weight: bold;
     font-family: fantasy;
@@ -291,7 +297,7 @@ img {
   font-size: 48px;
   font-weight: bold;
   text-align: center;
-  color: #ff7842;
+  color: #50E3C2;
   @include mQ(1400px){
     text-align: left;
   }
