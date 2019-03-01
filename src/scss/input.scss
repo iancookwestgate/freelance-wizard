@@ -198,8 +198,10 @@ img {
     }
   }
   #desk {
+    padding-top: 1%;
     @include mQ(1400px) {
       grid-row-start: 2;
+      padding-top: 8%;
     }
     @include center-enabler;
     p {
@@ -207,9 +209,11 @@ img {
     }
   }
   #laptop {
+    padding-top: 1%;
     @include mQ(1400px) {
       grid-column-start: 3;
       grid-row-start: 2;
+      padding-top: 8%;
     }
     @include center-enabler;
     p {
