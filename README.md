@@ -74,18 +74,18 @@ Amenities prototype:<br>
 
 **How to Join Page**
 
-How to join sketch:<br>
+How to Join sketch:<br>
  ![desktop sketch - how to join](src/assets/img/how-to-join-page.jpg)
 
-How to join prototype:<br>
+How to Join prototype:<br>
  ![desktop prototype - how to join](src/assets/img/how-to-join-prototype.png)
 
 **Contact Us Page**
 
-Contact us sketch:<br>
+Contact Us sketch:<br>
  ![desktop sketch - contact us](src/assets/img/contact-page.jpg)
 
-Contact us prototype:<br>
+Contact Us prototype:<br>
  ![desktop prototype - contact us](src/assets/img/contact-prototype.png)
 
 #### Desktop Version
@@ -107,15 +107,12 @@ Contact us prototype:<br>
 * Sketch
 * Webpack
 
-### Responsiveness
-
-
-
 ### Setup Instructions
 
 1. Clone this repository @ https://github.com/iwestgate931/freelance-wizard.git
 2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by inputting: "git clone {the above clone link}"
-3. Open the folder you receive and open the index.html link in the web browser of your choice (I use Google Chrome).
+3. Use the terminal to install node.js by typing in: "npm install".
+4. Use the terminal to launch the project into your web browser by typing in: "npm run start".
 
 Alternatively, you can use your web browser to open the site through its GH-Pages link:
 
