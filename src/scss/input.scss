@@ -50,7 +50,7 @@ span {
 }
 
 img {
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
 .travel-wiz {
@@ -67,6 +67,7 @@ img {
 .staff:hover {
   -webkit-transform: rotate(720deg);
   transform: rotate(720deg);
+  
 }
 
 .title-bit {
@@ -80,7 +81,7 @@ img {
   p {
     padding: 15px 5px;
     background: rgba(0,0,0,0.6);
-    border-radius: 15px;
+    border-radius: 8px;
   }
   @include mQ(1400px){
     display: flex;
@@ -131,6 +132,19 @@ img {
   max-width: 800px;
   @include mQ(1400px){
     width: 800px;
+    border-radius: 15px 0 0 15px;
+  }
+}
+
+#clifftop {
+  @include mQ(1400px){
+    border-radius: 0 15px 0 0;
+  }
+}
+
+#castletop {
+  @include mQ(1400px){
+    border-radius: 0 0 15px 0;
   }
 }
 
