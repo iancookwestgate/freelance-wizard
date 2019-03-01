@@ -280,6 +280,12 @@ span {
   }
 }
 
+#typeof {
+  @include mQ(1400px){
+    margin-left: 5%;
+  }
+}
+
 .amcu-image-spread {
   text-align: center;
   @include mQ(1400px){
