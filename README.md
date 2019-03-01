@@ -112,15 +112,13 @@ Contact Us prototype:<br>
 1. Clone this repository @ https://github.com/iwestgate931/freelance-wizard.git
 2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by inputting: "git clone {the above clone link}"
 3. Use the terminal to install node.js by typing in: "npm install".
-4. Use the terminal to launch the project into your web browser by typing in: "npm run start".
-
-Alternatively, you can use your web browser to open the site through its GH-Pages link:
+4. Use the terminal to launch the project into your web browser to be viewed by typing in: "npm run start".
 
 ### Roadmap
 
 Is there work you plan on continuing doing on this project? Features you'd like to add?
 
-*
+* 
 *
 
 ### License

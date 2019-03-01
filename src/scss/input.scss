@@ -439,4 +439,16 @@ img {
       max-width: 320px;
     }
   }
+  #bar-pic {
+    @include mQ(1024px){
+      grid-column-start: 2;
+      grid-row-start: 2;
+    }
+  }
+  #work-duo {
+    @include mQ(1024px){
+      grid-column-start: 2;
+      grid-row-start: 2;
+    }
+  }
 }
