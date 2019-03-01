@@ -21,11 +21,11 @@ body {
   background: url("../assets/img/background-mountains.png");
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 255vh;
+  max-height: 270vh;
   min-height: 100vh;
   margin: 0 1%;
   font-family: athelas;
-  @include mQ(1400px){
+  @include mQ(1024px){
     margin: 0 9%;
   }
 }
@@ -58,8 +58,8 @@ img {
 }
 
 .staff {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
 }
@@ -82,7 +82,7 @@ img {
     background: rgba(0,0,0,0.6);
     border-radius: 8px;
   }
-  @include mQ(1400px){
+  @include mQ(1024px){
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,8 +101,10 @@ img {
 
 .index-navbar {
   display: flex;
-  justify-content: space-around;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
   p {
     font-size: 50px;
     font-style: italic;
@@ -114,7 +116,13 @@ img {
     color: green;
     opacity: 0.7;
   }
-  @include mQ(1400px){
+  @include mQ(475px) {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  @include mQ(1024px){
     justify-content: space-between;
     width: 1050px;
     margin: 0 auto;
@@ -136,26 +144,26 @@ img {
 
 #index-main {
   max-width: 800px;
-  @include mQ(1400px){
+  @include mQ(1024px){
     width: 800px;
     border-radius: 15px 0 0 15px;
   }
 }
 
 #clifftop {
-  @include mQ(1400px){
+  @include mQ(1024px){
     border-radius: 0 15px 0 0;
   }
 }
 
 #castletop {
-  @include mQ(1400px){
+  @include mQ(1024px){
     border-radius: 0 0 15px 0;
   }
 }
 
 .index-top-container {
-  @include mQ(1400px){
+  @include mQ(1024px){
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-column-gap: 0px;
@@ -178,7 +186,7 @@ img {
 
 .index-hidden {
   display: none;
-  @include mQ(1400px) {
+  @include mQ(1024px) {
       display: block;
       width: 350px;
       height: 259px;
@@ -197,7 +205,7 @@ img {
   img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  @include mQ(1400px) {
+  @include mQ(1024px) {
     display: grid;
     grid-template-columns: 450px 450px 450px;
     grid-template-rows: 1fr 1fr 1fr;
@@ -208,7 +216,7 @@ img {
     background-size: 800px;
   }
   #how-to-join-segment {
-    @include mQ(1400px) {
+    @include mQ(1024px) {
       grid-column-start: 2;
     }
     @include center-enabler;
@@ -218,7 +226,7 @@ img {
   }
   #desk {
     padding-top: 1%;
-    @include mQ(1400px) {
+    @include mQ(1024px) {
       grid-row-start: 2;
       padding-top: 8%;
     }
@@ -229,7 +237,7 @@ img {
   }
   #laptop {
     padding-top: 1%;
-    @include mQ(1400px) {
+    @include mQ(1024px) {
       grid-column-start: 3;
       grid-row-start: 2;
       padding-top: 8%;
@@ -246,8 +254,10 @@ img {
 
 .amcu-navbar {
   display: flex;
-  justify-content: space-around;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
   p {
     font-size: 50px;
     font-style: italic;
@@ -258,7 +268,13 @@ img {
     color: green;
     opacity: 0.7;
   }
-  @include mQ(1400px){
+  @include mQ(475px) {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  @include mQ(1024px){
     justify-content: space-between;
     width: 1000px;
     margin: 0 auto;
@@ -280,14 +296,14 @@ img {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding: 15px 15px;
   background: rgba(0,0,0,0.5);
-  @include mQ(1400px){
+  @include mQ(1024px){
     font-size: 70px;
   }
 }
 
 .amcu-main {
   max-width: 800px;
-  @include mQ(1400px){
+  @include mQ(1024px){
     max-width: 80%;
     max-height: 590px;
   }
@@ -298,33 +314,33 @@ img {
   font-weight: bold;
   text-align: center;
   color: #50E3C2;
-  @include mQ(1400px){
+  @include mQ(1024px){
     text-align: left;
   }
 }
 
 #personality {
-  @include mQ(1400px){
+  @include mQ(1024px){
     margin-left: 5%;
   }
 }
 
 #typeof {
-  @include mQ(1400px){
+  @include mQ(1024px){
     margin-left: 5%;
   }
 }
 
 .amcu-image-spread {
   text-align: center;
-  @include mQ(1400px){
+  @include mQ(1024px){
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   img {
     max-width: 325px;
     max-height: 206px;
-    @include mQ(1400px){
+    @include mQ(1024px){
       max-width: 450px;
       max-height: 280px;
     }
@@ -346,7 +362,7 @@ img {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  @include mQ(1400px){
+  @include mQ(1024px){
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -354,13 +370,13 @@ img {
     max-width: 400px;
   }
   #htj-lefty {
-    @include mQ(1400px){
+    @include mQ(1024px){
       text-align: right;
     }
   }
   #hidden-plane {
     display: none;
-    @include mQ(1400px){
+    @include mQ(1024px){
       display: flex;
       justify-content: center;
       align-items: center;
@@ -376,7 +392,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include mQ(1400px){
+  @include mQ(1024px){
     display: grid;
     grid-template-columns: 1fr 1fr;
     p {
@@ -387,12 +403,12 @@ img {
   }
   .htj-first-section {
     max-width: 380px;
-    @include mQ(1400px){
+    @include mQ(1024px){
       max-width: 800px;
     }
   }
   .htj-first-column {
-    @include mQ(1400px){
+    @include mQ(1024px){
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
@@ -400,26 +416,26 @@ img {
   }
   .htj-second-section {
     max-width: 380px;
-    @include mQ(1400px){
+    @include mQ(1024px){
       max-width: 800px;
     }
   }
   .htj-second-column {
-    @include mQ(1400px){
+    @include mQ(1024px){
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
     }
   }
   .pic-move {
-    @include mQ(1400px){
+    @include mQ(1024px){
       grid-column-start: 2;
       grid-row-start: 2;
     }
   }
   img {
     max-width: 400px;
-    @include mQ(1400px){
+    @include mQ(1024px){
       max-width: 320px;
     }
   }
