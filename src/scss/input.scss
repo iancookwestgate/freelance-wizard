@@ -1,7 +1,6 @@
 @mixin center-enabler {
   position: relative;
   text-align: center;
-  color: #50E3C2;
 }
 
 @mixin internal-text {
@@ -10,7 +9,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 42px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 @mixin mQ($arg){
@@ -20,8 +18,9 @@
 }
 
 body {
-  background-image: url("../assets/img/background-mountains.png");
+  background: url("../assets/img/background-mountains.png");
   background-size: cover;
+  height: 100vh;
   margin: 0 1%;
   font-family: athelas;
   @include mQ(1400px){
@@ -29,13 +28,28 @@ body {
   }
 }
 
+p {
+  color: #50E3C2;
+  // color: #ff7842;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 a {
   text-decoration: none;
-  color: #50E3C2;
+}
+
+h1 {
+  color: #ff7842;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+span {
+  color: #ff7842;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .travel-wiz {
-  color: black;
+  color: #ff7842;
 }
 
 .staff {
@@ -155,7 +169,7 @@ a {
     background-image: url(../assets/img/celtic-spiral.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 60%;
+    background-size: 800px;
   }
   #how-to-join-segment {
     @include mQ(1400px) {
