@@ -47,54 +47,54 @@ Given my decision to have this fictional website target a travel/remote worker b
 **Landing Page**
 
 Mobile sketch:<br>
- ![mobile sketch](src/assets/img/landing-page-mobile.jpg)
+ ![mobile sketch](src/assets/img/landing-page-mobile.jpg =250x)
 
 Tablet sketch:<br>
- ![tablet sketch](src/assets/img/landing-page-tablet.jpg)
+ ![tablet sketch](src/assets/img/landing-page-tablet.jpg =250x)
 
 Desktop sketch:<br>
- ![desktop sketch](src/assets/img/landing-page-desktop.jpg)
+ ![desktop sketch](src/assets/img/landing-page-desktop.jpg =250x)
 
 Mobile prototype:<br>
- ![mobile prototype](src/assets/img/landing-page-mobile-prototype.png)
+ ![mobile prototype](src/assets/img/landing-page-mobile-prototype.png =250x)
 
 Tablet prototype:<br>
- ![tablet prototype](src/assets/img/landing-page-tablet-prototype.png)
+ ![tablet prototype](src/assets/img/landing-page-tablet-prototype.png =250x)
 
 Desktop prototype:<br>
- ![desktop prototype](src/assets/img/landing-page-desktop-prototype.png)
+ ![desktop prototype](src/assets/img/landing-page-desktop-prototype.png =250x)
 
 **Amenities Page**
 
 Amenities sketch:<br>
- ![desktop sketch - amenities](src/assets/img/amenities-page.jpg)
+ ![desktop sketch - amenities](src/assets/img/amenities-page.jpg =250x)
 
 Amenities prototype:<br>
- ![desktop prototype - amenities](src/assets/img/amenities-prototype.png)
+ ![desktop prototype - amenities](src/assets/img/amenities-prototype.png =250x)
 
 **How to Join Page**
 
 How to Join sketch:<br>
- ![desktop sketch - how to join](src/assets/img/how-to-join-page.jpg)
+ ![desktop sketch - how to join](src/assets/img/how-to-join-page.jpg =250x)
 
 How to Join prototype:<br>
- ![desktop prototype - how to join](src/assets/img/how-to-join-prototype.png)
+ ![desktop prototype - how to join](src/assets/img/how-to-join-prototype.png =250x)
 
 **Contact Us Page**
 
 Contact Us sketch:<br>
- ![desktop sketch - contact us](src/assets/img/contact-page.jpg)
+ ![desktop sketch - contact us](src/assets/img/contact-page.jpg =250x)
 
 Contact Us prototype:<br>
- ![desktop prototype - contact us](src/assets/img/contact-prototype.png)
+ ![desktop prototype - contact us](src/assets/img/contact-prototype.png =250x)
 
 #### Desktop Version
 
-![desktop user interface](src/assets/img/desktop-user-interface.png)
+![desktop user interface](src/assets/img/desktop-user-interface.png =250x)
 
 #### Mobile Version
 
-![mobile user interface](src/assets/img/mobile-user-interface.png)
+![mobile user interface](src/assets/img/mobile-user-interface.png =250x)
 
 
 ### Technologies and Resources
