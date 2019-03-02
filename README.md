@@ -90,11 +90,11 @@ Contact Us prototype:<br>
 
 #### Desktop Version
 
-![desktop user interface](src/assets/img/)
+![desktop user interface](src/assets/img/desktop-user-interface)
 
 #### Mobile Version
 
-![mobile user interface](src/assets/img/)
+![mobile user interface](src/assets/img/mobile-user-interface)
 
 
 ### Technologies and Resources
@@ -110,16 +110,19 @@ Contact Us prototype:<br>
 ### Setup Instructions
 
 1. Clone this repository @ https://github.com/iwestgate931/freelance-wizard.git
-2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by inputting: "git clone {the above clone link}"
-3. Use the terminal to install node.js by typing in: "npm install".
-4. Use the terminal to launch the project into your web browser to be viewed by typing in: "npm run start".
+2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by moving to the desktop ("cd Desktop") and then inputting: "git clone {the above clone link}".
+3. Navigate to the folder in the terminal by typing in: "cd freelance-wizard".
+4. Use the terminal to install node.js by typing in: "npm install".
+5. Use the terminal to launch the project into your web browser to be viewed by typing in: "npm run start".
 
 ### Roadmap
 
 Is there work you plan on continuing doing on this project? Features you'd like to add?
 
-* 
-*
+* I would like to add more uniqueness to both the Amenities and/or Contact pages. Currently, their structure is very similar.
+* I would try to nuance the grid on the How to Join page so that it appears more aesthetically pleasing as the width of the page decreases.
+* I would like to add a dropdown menu to the staff icon in the upper right that would provide access to all the various pages so that one does not have to return to the home page in order to go elsewhere.
+* I would find a way to better hint at the work environment on the Index/Home page instead of reserving all of those visuals and information to other pages on the site.
 
 ### License
 
