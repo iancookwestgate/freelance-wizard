@@ -90,11 +90,11 @@ Contact Us prototype:<br>
 
 #### Desktop Version
 
-![desktop user interface](src/assets/img/desktop-user-interface)
+![desktop user interface](src/assets/img/desktop-user-interface.png)
 
 #### Mobile Version
 
-![mobile user interface](src/assets/img/mobile-user-interface)
+![mobile user interface](src/assets/img/mobile-user-interface.png)
 
 
 ### Technologies and Resources
