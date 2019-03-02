@@ -47,54 +47,54 @@ Given my decision to have this fictional website target a travel/remote worker b
 **Landing Page**
 
 Mobile sketch:<br>
- ![mobile sketch](src/assets/img/landing-page-mobile.jpg=250x)
+ ![mobile sketch](src/assets/img/landing-page-mobile.jpg)
 
 Tablet sketch:<br>
- ![tablet sketch](src/assets/img/landing-page-tablet.jpg=250x)
+ ![tablet sketch](src/assets/img/landing-page-tablet.jpg)
 
 Desktop sketch:<br>
- ![desktop sketch](src/assets/img/landing-page-desktop.jpg=250x)
+ ![desktop sketch](src/assets/img/landing-page-desktop.jpg)
 
 Mobile prototype:<br>
- ![mobile prototype](src/assets/img/landing-page-mobile-prototype.png=250x)
+ ![mobile prototype](src/assets/img/landing-page-mobile-prototype.png)
 
 Tablet prototype:<br>
- ![tablet prototype](src/assets/img/landing-page-tablet-prototype.png=250x)
+ ![tablet prototype](src/assets/img/landing-page-tablet-prototype.png)
 
 Desktop prototype:<br>
- ![desktop prototype](src/assets/img/landing-page-desktop-prototype.png=250x)
+ ![desktop prototype](src/assets/img/landing-page-desktop-prototype.png)
 
 **Amenities Page**
 
 Amenities sketch:<br>
- ![desktop sketch - amenities](src/assets/img/amenities-page.jpg=250x)
+ ![desktop sketch - amenities](src/assets/img/amenities-page.jpg)
 
 Amenities prototype:<br>
- ![desktop prototype - amenities](src/assets/img/amenities-prototype.png=250x)
+ ![desktop prototype - amenities](src/assets/img/amenities-prototype.png)
 
 **How to Join Page**
 
 How to Join sketch:<br>
- ![desktop sketch - how to join](src/assets/img/how-to-join-page.jpg=250x)
+ ![desktop sketch - how to join](src/assets/img/how-to-join-page.jpg)
 
 How to Join prototype:<br>
- ![desktop prototype - how to join](src/assets/img/how-to-join-prototype.png=250x)
+ ![desktop prototype - how to join](src/assets/img/how-to-join-prototype.png)
 
 **Contact Us Page**
 
 Contact Us sketch:<br>
- ![desktop sketch - contact us](src/assets/img/contact-page.jpg=250x)
+ ![desktop sketch - contact us](src/assets/img/contact-page.jpg)
 
 Contact Us prototype:<br>
- ![desktop prototype - contact us](src/assets/img/contact-prototype.png=250x)
+ ![desktop prototype - contact us](src/assets/img/contact-prototype.png)
 
 #### Desktop Version
 
-![desktop user interface](src/assets/img/desktop-user-interface.png=250x)
+![desktop user interface](src/assets/img/desktop-user-interface.png)
 
 #### Mobile Version
 
-![mobile user interface](src/assets/img/mobile-user-interface.png=250x)
+![mobile user interface](src/assets/img/mobile-user-interface.png)
 
 
 ### Technologies and Resources
