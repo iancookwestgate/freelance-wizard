@@ -122,7 +122,7 @@ img {
     text-align: left;
     margin-bottom: 0;
   }
-  @include mQ(1024px){
+  @include mQ(1400px){
     justify-content: space-between;
     width: 1050px;
     margin: 0 auto;
@@ -145,6 +145,9 @@ img {
 #index-main {
   max-width: 800px;
   @include mQ(1024px){
+    border-radius: 15px;
+  }
+  @include mQ(1400px){
     width: 800px;
     border-radius: 15px 0 0 15px;
   }
@@ -163,7 +166,7 @@ img {
 }
 
 .index-top-container {
-  @include mQ(1024px){
+  @include mQ(1400px){
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-column-gap: 0px;
@@ -186,7 +189,7 @@ img {
 
 .index-hidden {
   display: none;
-  @include mQ(1024px) {
+  @include mQ(1400px) {
       display: block;
       width: 350px;
       height: 259px;
@@ -199,21 +202,32 @@ img {
     z-index: 1;
   }
   img {
-    width: 450px;
-    height: 300px;
+    max-width: 450px;
+    max-height: 300px;
   }
   img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   @include mQ(1024px) {
     display: grid;
-    grid-template-columns: 450px 450px 450px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     background-image: url(../assets/img/celtic-spiral.png);
     background-repeat: no-repeat;
     background-position: top;
+    background-size: 60%;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+  @include mQ(1400px) {
     background-size: 800px;
+    img {
+      max-width: 450px;
+      max-height: 300px;
+    }
   }
   #how-to-join-segment {
     @include mQ(1024px) {
